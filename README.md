@@ -28,7 +28,7 @@ We saw *dementia* as a problem unaddressed. Seeing *our own family members* 
   <li>3) We made use of Arduino which included various sensors and processors.  </li>
   <li>4) Unity & Vuforia was used to include the AR component of the device! As mentioned above, we use image recognition to play a detailed video about washing hands. </li>
   <li>5) Unity was used to make the tile matching memory game </li>
-  <li>6) The ML model was build using ensemble techniques and then deploy in form of rest api using flask.</li>
+  <li>6) The ML model was build using ensemble techniques and then deployed in form of rest api using flask.</li>
 
 ## *Challenges we ran into*
 
