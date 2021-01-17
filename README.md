@@ -18,6 +18,7 @@ We saw *dementia* as a problem unaddressed. Seeing *our own family members* 
   <li>2) Updated Daily Reports from the caretaker</li>
  <li> 3) Upcoming appointments</li></p>
  <p>When clicked on the number of patients under him, we can see a list. When selected a specific patient, history of an anomaly in heart rate and anxiety attack and geofence crossed are shown with the daily report of how the patient is feeling. These reports come in handy during the virtual therapy sessions as the doctor has a much more detailed insight into the patient’s troubles and issues. When navigated to the upcoming appointments, all the appointments for that week are shown. Factoring in the precautionary methods to be followed during the COVID-19 pandemic, The patient will get a notification pop up on his phone (with beeps) and vibrations on his band once every hour to wash and sanitize himself. We made use of augmented reality to guide the person to the nearest sink using a line string and playing a detailed video of a guide to washing hands. When the camera is pointed at the picture(target image), a detailed video starts to play on washing hands for 20 seconds.</p>
+ <p>A simple tile matching memory game is included in the patient's application which can train the cognitive intelligence of the person and also providing the doctor with a tool for patient examination. .</p>
 <p>The location of the patient is fed to the machine learning model(which is trained to identify if the current location of the patient is familiar to them or not) using a geolocation sensor, the model will then predict whether this location/area is familiar or not to the patient and this information is sent to their respective guide.If the patient leaves the geofence then an alert is sent to their caretaker.</p>
 
 ## *How we built it*
@@ -26,7 +27,8 @@ We saw *dementia* as a problem unaddressed. Seeing *our own family members* 
   <li>2) Firebase was used as the cloud service to store and retrieve the tasks allocated by the caretaker for the patient, for the caretaker to upload music and voice notes that can be used as an element of nostalgia to calm the patient in situations of anxiety. </li>
   <li>3) We made use of Arduino which included various sensors and processors.  </li>
   <li>4) Unity & Vuforia was used to include the AR component of the device! As mentioned above, we use image recognition to play a detailed video about washing hands. </li>
-  <li>5) The ML model was build using ensemble techniques and then deploy in form of rest api using flask.</li>
+  <li>5) Unity was used to make the tile matching memory game </li>
+  <li>6) The ML model was build using ensemble techniques and then deploy in form of rest api using flask.</li>
 
 ## *Challenges we ran into*
 
